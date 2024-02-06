@@ -1,0 +1,51 @@
+.user_css_appi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.card_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.main_users_container{
+    text-align: center;
+    height: 1000px;
+}
+
+
+/*API_CARDS*/
+
+.card_background{
+    background-color: #d58565;
+    border-radius: 10px;
+    width: 190px;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.txt_margin_container{
+    margin: 20px;
+}
+
+.txt_tittle{
+    color: #f8f8f8;
+    font-size: 20px;
+    margin: 0;
+}
+
+.txt_name{
+    color: #f8f8f8;
+    font-size: 15px;
+    margin: 0;
+}
